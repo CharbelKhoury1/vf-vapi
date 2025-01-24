@@ -8,7 +8,7 @@ const getVoiceflowDomain = () => {
   return customDomain
     ? `${customDomain}.general-runtime.voiceflow.com`
     : 'general-runtime.voiceflow.com'
-}
+} 
 
 const getTranscriptsDomain = () => {
   const customDomain = process.env.VOICEFLOW_DOMAIN
